@@ -171,6 +171,85 @@ body {
 
 
 /* Pricing */
+.pricing {
+  padding: 40px 0 90px;
+}
+.pricing-title {
+  margin-bottom: 8px;
+}
+.section-subtitle {
+  text-align: center;
+  color: var(--gray);
+  margin-bottom: 48px;
+}
+.pricing-grid {
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+}
+.price-card {
+  flex: 1;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+}
+/* Featured (Pro) card — dark highlight */
+.price-card-featured {
+  background: var(--dark);
+  color: #fff;
+  border-color: var(--dark);
+}
+.plan-name {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--gray);
+}
+.price-card-featured .plan-name {
+  color: var(--blue);
+}
+.price {
+  font-size: 38px;
+  font-weight: 800;
+  margin: 6px 0 2px;
+}
+.price-note {
+  color: var(--gray);
+  font-size: 14px;
+}
+.features {
+  list-style: none;
+  margin: 22px 0;
+  flex: 1;
+}
+.features li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+.features li::before {
+  content: "•";
+  color: var(--blue);
+  position: absolute;
+  left: 4px;
+}
+.btn-outline {
+  border: 1px solid var(--line);
+  color: var(--dark);
+  text-align: center;
+}
+.btn-outline:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+.btn-block {
+  display: block;
+  text-align: center;
+}
+
 
 /* AI / Placeholder section */
 
