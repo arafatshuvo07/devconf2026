@@ -351,3 +351,42 @@ body {
 
 
 /* Footer */
+.footer {
+  background: #0a1024;
+  color: #fff;
+  padding: 40px 0 30px;
+}
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo img {
+  height: 32px;
+}
+.socials {
+  display: flex;
+  gap: 16px;
+}
+.socials a {
+  color: #b6c0d4;
+  display: inline-flex;
+}
+.socials a:hover {
+  color: #fff;
+}
+.socials svg {
+  width: 22px;
+  height: 22px;
+}
+.divider {
+  border: none;
+  border-top: 1px solid #26305a;
+  margin: 26px 0;
+}
+.copyright {
+  text-align: center;
+  color: #8b95ab;
+  font-size: 14px;
+}
+
