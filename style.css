@@ -251,6 +251,103 @@ body {
 }
 
 
-/* AI / Placeholder section */
+/* AI / Placeholder section — Hackathon */
+.hackathon {
+  background: var(--dark);
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+.hack-badge {
+  display: inline-block;
+  background: rgba(47, 107, 255, 0.15);
+  color: #7ea2ff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+.hack-title {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 18px 0 12px;
+}
+.hack-subtitle {
+  color: #b6c0d4;
+  max-width: 620px;
+  margin: 0 auto 44px;
+}
+/* Stat row */
+.hack-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 56px;
+}
+.hack-stat {
+  display: flex;
+  flex-direction: column;
+}
+.hack-stat-value {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--blue);
+}
+.hack-stat-label {
+  color: #b6c0d4;
+  font-size: 14px;
+}
+/* Prize cards */
+.prize-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 44px;
+  text-align: left;
+}
+.prize-card {
+  background: #16213f;
+  border: 1px solid #26305a;
+  border-radius: 12px;
+  padding: 26px 24px;
+}
+.prize-rank {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.rank-gold {
+  color: #f5c451;
+}
+.rank-silver {
+  color: #cbd5e1;
+}
+.rank-bronze {
+  color: #e0955e;
+}
+.prize-amount {
+  font-size: 34px;
+  font-weight: 800;
+  margin: 6px 0 16px;
+}
+.prize-perks {
+  list-style: none;
+}
+.prize-perks li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #d5dbe8;
+}
+.prize-perks li::before {
+  content: "✓";
+  color: var(--blue);
+  position: absolute;
+  left: 0;
+}
+
 
 /* Footer */
